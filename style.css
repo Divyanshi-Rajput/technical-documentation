@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(182, 239, 218);
+  }
+  
+header{
+    text-align: center;
+    font-size: 24px;
+    font-family: verdana;
+  }
+  
+.nav-link{
+    font-family: palatino linotype;
+    text-align: left;
+  }
+  
+  .main-section{
+    font-family: georgia;
+  }
+  
+  a{
+    font-family: verdana;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+      margin: 0 10px;
+    }
+  
+    nav, article {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  #links{
+    margin-left: 650px;
+  }
